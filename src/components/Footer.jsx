@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <div className="fixed bottom-0 left-0 w-full bg-blue-50 shadow-md p-4 flex justify-end items-center border-t space-x-4">
+    <div className="fixed bottom-0 left-0 w-full bg-blue-50 shadow-md p-2 flex justify-end items-center border-t space-x-4">
       <button className="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300">
         Cancel
       </button>

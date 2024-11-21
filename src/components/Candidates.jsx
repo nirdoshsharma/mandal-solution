@@ -22,7 +22,7 @@ const Candidates = () => {
   };
 
   return (
-    <div className="p-4 bg-white   ">
+    <div className="p-4 bg-white w-full max-w-md mx-auto mb-6   ">
       <div className="flex border-b mb-4">
         <button
           className={`px-4 py-2 text-sm font-medium ${
@@ -57,7 +57,7 @@ const Candidates = () => {
           Replied ({candidateData.filter((c) => c.status === "replied").length})
         </button>
       </div>
-      <div className="space-y-4 overflow-y-auto max-h-48 mx2">
+      <div className="space-y-4 overflow-y-auto  mx2">
         {filteredCandidates().map((candidate, index) => (
           <div key={index} className="flex items-center p-3  ">
             <div className="w-10 h-10 flex items-center justify-center bg-gray-300 rounded-full text-gray-700 font-bold">

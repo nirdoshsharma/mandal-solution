@@ -8,7 +8,7 @@ const ResumeUploader = () => {
   };
 
   return (
-    <div className="max-w-sm px-6 py-4 bg-white border border-gray-300 rounded-md ">
+    <div className="max-w-sm px-6 py-2 bg-white  rounded-md ">
       <h2 className="mx-6 text-lg font-semibold text-gray-900 mb-2">
         Upload Ideal Candidate Resume
       </h2>
